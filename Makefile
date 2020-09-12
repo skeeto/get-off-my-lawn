@@ -4,7 +4,7 @@ LDFLAGS = -s
 LDLIBS  =
 DOSBOX  = dosbox
 
-lawn.exe: lawn.c back.h gameover.h goml.h gun.h intro.h monster.h
+lawn.exe: lawn.c back.h gameover.h goml.h gun.h intro.h monster.h outro.h
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ lawn.c $(LDLIBS)
 
 play.exe: play.c
