@@ -11,7 +11,7 @@ play.exe: play.c
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ play.c $(LDLIBS)
 
 run: lawn.exe
-	$(DOSBOX) -conf dosbox.conf >/dev/null
+	$(DOSBOX) -conf lawn.conf lawn.exe >/dev/null
 
 clean:
 	rm -f lawn.exe play.exe
