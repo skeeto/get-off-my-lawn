@@ -5,6 +5,8 @@ channel, which is dedicate to showcasing old games. The host, James, has
 played my previous DOS games, so I thought I'd make one especially for
 him.
 
+![](screenshot.png)
+
 ## Instructions
 
 This is a (terrible) tower defense game. Your job is to place turrets on
